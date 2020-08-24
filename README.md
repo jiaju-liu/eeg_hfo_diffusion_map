@@ -4,9 +4,13 @@ This repository contains tools created in MATLAB for detecting high-frequency os
 
 ## Results from the visualization tools
 
-Figure 1
+Figures 1 and 2 (created by make_vid_from_scatter.m): Diffusion map embeddings separating HFOs (red), normal EEG (green), and artifacts (orange). Shifting before computing the diffusion map (bottom) allows events to be separated more accurately than the standard diffusion map (top).
 
-Figure 2: Shifting reveals that 1981 detections are have similar morphology and their mean Euclidean distance changes from 18.6097 to 5.1323.
+![euclidean_diff_map](/images/l2_euclidean.gif)
+
+![shifted_diff_map](/images/shifted_l2.gif)
+
+Figure 3 (created by plot_shift_many.m): Shifting reveals that 1981 detections are have similar morphology and their mean Euclidean distance changes from 18.6097 to 5.1323.
 ![diff_map_video](/images/shift_plot.png)
 
 ## Dependencies
